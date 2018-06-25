@@ -1,0 +1,5 @@
+Important point to note:
+
+OpenCV works on BGR image format by default and matplotlib works on RGB by default.
+So plotting images read via opencv will display an unexpected color of image.
+So for convenience, Perform color compatible operations or convert image to grayscale 
